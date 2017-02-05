@@ -108,8 +108,7 @@ The main functions defines the directories for various inputs can calls the foll
 ### 8.1 Pipeline Stages
 
 Output at different states of the pipeline
-
-![png](Readme_resources/output_22_1.png)
+![png](Readme_resources/pipeline.png)
 
 
 ### 8.2 Test Set Images
@@ -138,11 +137,13 @@ Raw Hough lines
 ![](Readme_resources/solidWhiteRight_Raw_output.gif)
 
 challenge_output.avi
+![](Readme_resources/challenge_output.gif)
 
 solidWhiteRight_output.avi
+![](output_videos/solidWhiteRight_output.avi)
 
 solidYellowLeft_output.avi
-
+![](output_videos/solidYellowLeft_output.avi)
 
 
 ## Summary and Reflection
