@@ -1,6 +1,6 @@
 
 # Self-Driving Car Engineer Nanodegree
-
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## Project: **Finding Lane Lines on the Road** 
 ***
@@ -10,6 +10,7 @@
 ## 1. Edge Feature Extraction
 
 This method extracts the lane edges from a given image. The following steps used to do this:
+
 1. Grayscale conversion
 2. Apply CLAHE filter to improve contrast and refine edge boundaries
 3. Gausian blur to reduce detail 
@@ -155,6 +156,7 @@ Output at different states of the pipeline
     Processing... solidWhiteRight   Done! output saved at:  output_videos/solidWhiteRight_output.avi
     Processing... solidYellowLeft   Done! output saved at:  output_videos/solidYellowLeft_output.avi
 
+![](https://github.com/aksagg88/CarND-LaneLines-P1/blob/aksagg/Readme_resources/solidWhiteRight_Raw_output.gif)
 
 ## Summary and Reflection
 
