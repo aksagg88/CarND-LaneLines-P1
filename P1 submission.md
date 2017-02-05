@@ -103,60 +103,64 @@ The main functions defines the directories for various inputs can calls the foll
 
 ---
 
+## 8. Output
+
 Output at different states of the pipeline
 
+![png](Readme_resources/frame.png)
 
 
-![png](output_22_1.png)
+![png](Readme_resources/output_22_1.png)
 
 
     processing test_images/solidWhiteCurve.jpg... ok 0
 
 
 
-![png](output_22_3.png)
+![png](Readme_resources/output_22_3.png)
 
 
     processing test_images/solidWhiteRight.jpg... ok 1
 
 
 
-![png](output_22_5.png)
+![png](Readme_resources/output_22_5.png)
 
 
     processing test_images/solidYellowCurve.jpg... ok 2
 
 
 
-![png](output_22_7.png)
+![png](Readme_resources/output_22_7.png)
 
 
     processing test_images/solidYellowCurve2.jpg... ok 3
 
 
 
-![png](output_22_9.png)
+![png](Readme_resources/output_22_9.png)
 
 
     processing test_images/solidYellowLeft.jpg... ok 4
 
 
 
-![png](output_22_11.png)
+![png](Readme_resources/output_22_11.png)
 
 
     processing test_images/whiteCarLaneSwitch.jpg... ok 5
 
 
 
-![png](output_22_13.png)
+![png](Readme_resources/output_22_13.png)
 
 
     Processing... challenge   Done! output saved at:  output_videos/challenge_output.avi
     Processing... solidWhiteRight   Done! output saved at:  output_videos/solidWhiteRight_output.avi
     Processing... solidYellowLeft   Done! output saved at:  output_videos/solidYellowLeft_output.avi
 
-![](https://github.com/aksagg88/CarND-LaneLines-P1/blob/aksagg/Readme_resources/solidWhiteRight_Raw_output.gif)
+
+![](Readme_resources/solidWhiteRight_Raw_output.gif)
 
 ## Summary and Reflection
 
