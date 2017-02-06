@@ -133,25 +133,26 @@ whiteCarLaneSwitch.jpg
 
 
 ### 8.3 Video Set
-Raw Hough lines 
+[Raw Hough lines]
+
 ![](Readme_resources/solidWhiteRight_Raw_output.gif)
 
-challenge_output.avi
+[challenge_output.avi]
+
 ![](Readme_resources/challenge_output.gif)
 
-solidWhiteRight_output.avi
-![](output_videos/solidWhiteRight_output.avi)
+[solidWhiteRight_output.avi](output_videos/solidWhiteRight_output.avi)
 
-solidYellowLeft_output.avi
-![](output_videos/solidYellowLeft_output.avi)
+[solidYellowLeft_output.avi](output_videos/solidYellowLeft_output.avi)
 
 
 ## Summary and Reflection
 
 [Git-Repository](https://github.com/aksagg88/Advanced-Lane-Detection.git)
 
-This report demonstrates the implementation of a basic lane detection algorithm using a combination of the edge and color based feature extraction and Hough line detection. Though the concept of the algorithm was relatively simple, the actual was a lot harder than I my expectation. After implementing this lane detection pipeline, I have a greater appreciation of the challenges in deploying a vision based in real world setting.
+This report demonstrates the implementation of a basic lane detection algorithm using a combination of the edge and color based feature extraction and Hough line detection. Though the concept of the algorithm was relatively simple, the actual implementation was a lot more challenging. After implementing this lane detection pipeline, I have a greater appreciation of the challenges in deploying a vision based system in real world setting.
 
-The feature extraction method used in this algorithm leaves a lot more to be desired. Specially in driving situations with shadow cover and faded lanes the algorithm is unable to detect lanes. using a first order filter improves the performance a little bit but a better detection and tracking method is required.
+The feature extraction method used in this algorithm leaves a lot more to be desired. Especially in driving situations with shadow cover and faded lanes the algorithm is unable to detect lanes. Using a first order filter improves the performance a little bit but a better detection and tracking method is required.
 
-Although the implemented algorithm was able to detect the straight line segments of the lane markings in the challenge video, in an real world implementation curved lanes need to be detected. A different approach with inverse perspective mapping and  spline fitting may solve this problem.
+Although the implemented algorithm was able to detect the straight line segments of the lane markings in the challenge video, a future improvement would be to fit a higher degree polynomial to represent the curvature of the road. 
+
